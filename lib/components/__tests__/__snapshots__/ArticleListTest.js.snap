@@ -2,107 +2,21 @@
 
 exports[`ArticleList renders correctly 1`] = `
 <div>
-  <div
-    style={
+  <Article
+    article={
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+        "id": "a",
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-       
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-  <div
-    style={
+    key="a"
+  />
+  <Article
+    article={
       Object {
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 10,
+        "id": "b",
       }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontSize": "0.85em",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-       
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
+    key="b"
+  />
 </div>
 `;
